@@ -1,0 +1,9 @@
+[
+  {
+    "name": "app1",
+    "entry": "/subapps/app1",
+    "key": "app1",
+    "base": "/app1",
+    "path": "/app1"
+  }
+]
