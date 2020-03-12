@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2017",
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "sourceMap": true,
+    "watch": true,
+    "inlineSources": false,
+    "isolatedModules": false,
+    "lib": ["es2017"],
+    "outDir": "./dist"
+  },
+  "include": [
+    "server/**/*",
+    "node_modules"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+}
