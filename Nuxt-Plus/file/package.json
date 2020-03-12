@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "build": "cross-env NODE_ENV=production nuxt build && backpack build",
+    "analyz": "cross-env NODE_ENV=production nuxt build --analyzer",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.16.2",
+    "cookie-parser": "^1.4.3",
+    "nuxt": "latest",
+    "offline-plugin": "^4.8.4",
+    "qs": "^6.5.1",
+    "source-map-support": "^0.4.15",
+    "vue-awesome-swiper": "^2.6.7"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel-preset-stage-2": "^6.24.1",
+    "node-sass": "^4.6.0",
+    "postcss-hexrgba": "^1.0.0",
+    "postcss-nested": "^2.1.2",
+    "postcss-responsive-type": "^1.0.0",
+    "sass-loader": "^6.0.6"
+  }
+}
